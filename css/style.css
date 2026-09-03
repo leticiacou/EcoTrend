@@ -528,6 +528,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 360px;
   }
 
+  .eco-carousel .carousel-caption {
+    bottom: 2.5rem;
+  }
+
   .eco-carousel .carousel-caption h2 {
     font-size: 1.75rem;
   }
@@ -567,7 +571,13 @@ h1, h2, h3, h4, h5, h6 {
 
   .eco-carousel .carousel-caption {
     padding: 0.75rem 1rem;
-    bottom: 1rem;
+    bottom: 2.25rem;
+    left: 10%;
+    right: 10%;
+  }
+
+  .eco-carousel .carousel-indicators {
+    margin-bottom: 0.5rem;
   }
 
   .eco-carousel .carousel-caption h2 {
