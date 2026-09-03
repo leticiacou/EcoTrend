@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detalhes do produto Carregador Solar Portátil SolarTech na EcoTrend.">
+  <title>Carregador Solar Portátil | EcoTrend</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg eco-navbar" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-solid fa-leaf"></i> EcoTrend
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link cart-link" href="#carrinho" aria-label="Carrinho de compras">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="badge rounded-pill cart-count">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== CONTEÚDO ===================== -->
+  <main>
+
+    <section class="container py-5">
+      <!-- Breadcrumb do Bootstrap -->
+      <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="categorias.html">Categorias</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Carregador Solar Portátil</li>
+        </ol>
+      </nav>
+
+      <!-- Detalhes do produto (CSS Grid) -->
+      <article class="product-detail">
+        <figure class="product-detail__image mb-0">
+          <img src="assets/img/tech-carregador.svg" alt="Carregador Solar Portátil SolarTech">
+        </figure>
+
+        <div class="product-detail__info">
+          <div>
+            <span class="badge badge-eco mb-2"><i class="fa-solid fa-solar-panel me-1"></i> Tecnologia Verde</span>
+            <h1 class="h2 mb-1">Carregador Solar Portátil</h1>
+            <p class="text-muted mb-0">Marca: <strong>SolarTech</strong> &nbsp;|&nbsp;
+              <span class="text-warning">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </span> (128 avaliações)
+            </p>
+          </div>
+
+          <div>
+            <span class="product-detail__price">R$ 189,90</span>
+            <span class="product-detail__old-price">R$ 229,90</span>
+            <p class="small text-muted mb-0">ou 6x de R$ 31,65 sem juros</p>
+          </div>
+
+          <div>
+            <h2 class="h5">Descrição</h2>
+            <p>
+              O Carregador Solar Portátil SolarTech é a solução ideal para quem busca energia limpa em qualquer lugar.
+              Com painel solar dobrável de alta eficiência e bateria interna de 20.000 mAh, ele carrega smartphones,
+              tablets e outros dispositivos USB utilizando apenas a luz do sol.
+            </p>
+            <p class="mb-0">
+              Produzido com carcaça em plástico reciclado e embalagem compostável, cada unidade vendida contribui
+              com o plantio de uma árvore por meio do programa EcoTrend Reflorestar.
+            </p>
+          </div>
+
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-sun"></i> Painel solar dobrável 21W</li>
+            <li><i class="fa-solid fa-battery-full"></i> Bateria de 20.000 mAh</li>
+            <li><i class="fa-solid fa-plug"></i> 2 saídas USB + 1 USB-C</li>
+            <li><i class="fa-solid fa-recycle"></i> Carcaça em plástico reciclado</li>
+            <li><i class="fa-solid fa-droplet"></i> Resistente à água (IPX4)</li>
+            <li><i class="fa-solid fa-tree"></i> 1 árvore plantada por compra</li>
+          </ul>
+
+          <!-- Ações -->
+          <div class="product-detail__actions">
+            <div class="input-group" style="width: 130px;">
+              <span class="input-group-text" id="labelQtd">Qtd.</span>
+              <input type="number" class="form-control" value="1" min="1" aria-labelledby="labelQtd">
+            </div>
+            <a href="#carrinho" class="btn btn-eco btn-lg">
+              <i class="fa-solid fa-cart-plus me-2"></i> Adicionar ao Carrinho
+            </a>
+          </div>
+
+          <p class="small text-muted mb-0">
+            <i class="fa-solid fa-truck me-1"></i> Frete grátis para compras acima de R$ 150,00 &nbsp;|&nbsp;
+            <i class="fa-solid fa-rotate-left me-1"></i> 30 dias para troca
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="eco-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Redes sociais -->
+        <section aria-labelledby="footer-social">
+          <h4 id="footer-social"><i class="fa-solid fa-leaf me-2"></i>EcoTrend</h4>
+          <p>Produtos sustentáveis e ecológicos para um estilo de vida mais consciente.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </section>
+
+        <!-- Contato -->
+        <section aria-labelledby="footer-contato">
+          <h4 id="footer-contato">Contato</h4>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Rua das Árvores, 123 - São Paulo, SP</li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+551140028922">(11) 4002-8922</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@ecotrend.com.br">contato@ecotrend.com.br</a></li>
+            <li><i class="fa-solid fa-clock"></i> Seg a Sex, 9h às 18h</li>
+          </ul>
+        </section>
+
+        <!-- Políticas -->
+        <section aria-labelledby="footer-politicas">
+          <h4 id="footer-politicas">Políticas da loja</h4>
+          <ul>
+            <li><a href="#politica-privacidade">Política de Privacidade</a></li>
+            <li><a href="#trocas-devolucoes">Trocas e Devoluções</a></li>
+            <li><a href="#termos-uso">Termos de Uso</a></li>
+            <li><a href="#entrega">Política de Entrega</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="mb-0">&copy; 2026 EcoTrend. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (necessário para carrossel e menu responsivo) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
