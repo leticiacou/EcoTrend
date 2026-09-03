@@ -62,13 +62,3 @@ python3 -m http.server 8080
 ### Publicação
 
 O projeto está pronto para hospedagem estática (GitHub Pages, Vercel, Netlify etc.). No GitHub Pages, basta habilitar a publicação a partir da branch principal, na pasta raiz (`/`).
-
-## Integrantes do grupo
-
-| Nome | 
-|---|
-| _Integrante 1_ |
-| _Integrante 2_ |
-| _Integrante 3_ |
-| _Integrante 4_ |
-| _Integrante 5_ |
